@@ -3,14 +3,14 @@ import React from 'react';
 
 const Header = ({ herName, setHerName, handleNameSubmit }) => (
   <div className="text-center space-y-6">
-    <h1 className="text-4xl font-bold">Hello! ❤️</h1>
-    <p className="text-lg ">Type your name here</p>
+    <h1 className="text-4xl font-bold">Haloooo ☹️</h1>
+    <p className="text-lg ">Type Your Name Heree</p>
     <form onSubmit={handleNameSubmit} className="space-y-4">
       <input
         type="text"
         value={herName}
         onChange={(e) => setHerName(e.target.value)}
-        placeholder="Enter your name"
+        placeholder="Enter your name😛"
         className="px-4 py-2 mr-4 rounded-lg text-black text-center"
       />
       <button
