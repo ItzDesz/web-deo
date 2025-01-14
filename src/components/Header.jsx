@@ -10,14 +10,14 @@ const Header = ({ herName, setHerName, handleNameSubmit }) => (
         type="text"
         value={herName}
         onChange={(e) => setHerName(e.target.value)}
-        placeholder="Enter your name😛"
+        placeholder="Masukin Nama Kamuuuuuu😂"
         className="px-4 py-2 mr-4 rounded-lg text-black text-center"
       />
       <button
         type="submit"
         className="bg-pink-500 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-pink-600 transition"
       >
-        Let’s Start!
+        Ayooo Mulaiii!
       </button>
     </form>
   </div>
