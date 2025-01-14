@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Question = ({ herName, question, handleAnswer }) => (
   <div className="flex flex-col items-center justify-center space-y-4">
-    <h1 className="text-4xl font-bold mb-6">Hey {herName}, ❤️</h1>
+    <h1 className="text-4xl font-bold mb-6">Haloooo {herName}, kocakkk😹❤</h1>
     <motion.img
       src={question.gif}
       alt="GIF"
