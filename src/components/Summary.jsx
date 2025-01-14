@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Summary = ({ questions, answers }) => (
   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="text-center">
-    <h1 className="text-4xl font-bold mb-6">Yay! 🎉</h1>
+    <h1 className="text-4xl font-bold mb-6">Yeuuu! 🤩🎉</h1>
     <p className="text-xl">Screenshot this, here’s what we planned:</p>
     <div className="mt-4 space-y-4 text-lg">
       {answers.map((answer, index) => (
